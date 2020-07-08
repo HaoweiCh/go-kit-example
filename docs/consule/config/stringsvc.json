@@ -1,0 +1,7 @@
+{
+  "service": {
+    "name": "stringsvc",
+    "tags": [],
+    "port": 8081
+  }
+}

@@ -1,0 +1,17 @@
+### Send POST request with json body
+POST http://127.0.0.1:7081/concat
+Content-Type: application/json
+
+{
+  "a": "6",
+  "b": "4"
+}
+
+###
+POST http://127.0.0.1:7081/sum
+Content-Type: application/json
+
+{
+  "a": 6,
+  "b": 4
+}

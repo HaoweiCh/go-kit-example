@@ -1,0 +1,15 @@
+### Send POST request with json body
+POST http://127.0.0.1:8081/count
+Content-Type: application/json
+
+{
+  "s": "this sentence"
+}
+
+###
+POST http://127.0.0.1:8081/uppercase
+Content-Type: application/json
+
+{
+  "s": "this sentence"
+}

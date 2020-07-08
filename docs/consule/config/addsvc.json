@@ -1,0 +1,7 @@
+{
+  "service": {
+    "name": "addsvc",
+    "tags": [],
+    "port": 7082
+  }
+}

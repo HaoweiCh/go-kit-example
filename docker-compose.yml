@@ -1,0 +1,12 @@
+consul:
+  image: heawercher/consul:1.7
+  build:
+    context: ./docs/consule
+  ports:
+    - "8500:8500"
+    - "8300:8300"
+  logging:
+    driver: "json-file"
+    options:
+      max-size: "200k"
+      max-file: "10"
