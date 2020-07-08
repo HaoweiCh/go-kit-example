@@ -1,0 +1,12 @@
+GET http://127.0.0.1:5050/echo?In=abc
+
+###
+GET http://127.0.0.1:5050/louder/9?In=abc
+
+###
+POST http://127.0.0.1:5050/louder/9
+Content-Type: application/json
+
+{
+  "In": "abc"
+}
